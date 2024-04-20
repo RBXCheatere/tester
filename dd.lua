@@ -3,14 +3,14 @@ local ESP = {}
 -- Your ESP settings
 ESP.settings = {
     box = {
-        enabled = true,
+        enabled = false,
         color = Color3.new(1, 1, 1),
         thickness = 1,
         transparency = 1,
         filled = false
     },
     text = {
-        nameEnabled = true,
+        nameEnabled = false,
         color = Color3.new(1, 1, 1),
         size = 13,
         center = true,
@@ -18,7 +18,7 @@ ESP.settings = {
         outlineColor = Color3.new(0, 0, 0)
     },
     distanceText = {
-        enabled = true,
+        enabled = false,
         color = Color3.new(0, 1, 0),
         size = 13,
         center = true,
@@ -26,7 +26,7 @@ ESP.settings = {
         outlineColor = Color3.new(0, 0, 0)
     },
     healthText = {
-        enabled = true,
+        enabled = false,
         color = Color3.new(1, 1, 0),
         size = 13,
         center = true,
@@ -34,7 +34,7 @@ ESP.settings = {
         outlineColor = Color3.new(0, 0, 0)
     },
     healthBar = {
-        enabled = true,
+        enabled = false,
         color = Color3.new(1, 1, 0),
         size = 13,
         center = true,
@@ -42,7 +42,7 @@ ESP.settings = {
         outlineColor = Color3.new(0, 0, 0)
     },
     weaponText = {
-        enabled = true,
+        enabled = false,
         maxLength = 12, -- Maximum length of displayed tool name
         color = Color3.new(1, 1, 1),
         size = 13,
